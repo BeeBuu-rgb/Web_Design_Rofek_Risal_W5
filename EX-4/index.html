@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADT Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+
+        <aside class="menu">
+            <div class="brand">
+                <h1>CADT</h1>
+                <label for="menu-toggle" class="close-btn">&times;</label>
+            </div>
+            
+            <nav class="nav-links">
+                <div class="aa active">
+                    <img src="./img/laptop.svg" alt="">
+                    <span>Dashboard</span>
+                </div>
+                <div class="aa">
+                    <img src="./img/form-28-regular.svg" alt="">
+                    <span>Form</span>
+                </div>
+                <div class="aa">
+                    <img src="./img/card-outline.svg" alt="">
+                    <span>Cards</span>
+                </div>
+                <div class="aa">
+                    <img src="./img/chart-pie.svg" alt="">
+                    <span>Charts</span>
+                </div>
+                <div class="aa">
+                    <img src="./img/mouse-pointer-click.svg" alt="">
+                    <span>Buttons</span>
+                </div>
+                <div class="aa">
+                    <img src="./img/modal.svg" alt="">
+                    <span>Modals</span>
+                </div>
+                <div class="aa">
+                    <img src="./img/table-rows-narrow.svg" alt="">
+                    <span>Tables</span>
+                </div>
+                <div class="aa">
+                    <img src="./img/page-template.svg" alt="">
+                    <span>Pages</span>
+                </div>
+            </nav>
+
+            <button class="acc">
+                <span>Create account</span>
+                <span>+</span>
+            </button>
+        </aside>
+
+        <div class="content">
+            <header class="top-bar">
+                <label for="menu-toggle" class="menu-btn">☰</label>
+
+                <div class="search">
+                    <img src="./img/magnifying-glass.svg" alt="">
+                    <input type="text" placeholder="Search for projects">
+                </div>
+
+                <div class="top-actions">
+                    <img src="./img/notification.svg" alt="Notifications" class="icon-btn">
+                    <img src="./img/profile.svg" alt="Profile" class="avatar">
+                </div>
+            </header>
+
+            <main class="main-body">
+                <h1 class="page-title">Dashboard</h1>
+
+                <div class="star">
+                    <div class="star-left">
+                        <img src="./img/star.svg" alt="">
+                        <span>Star this project on GitHub</span>
+                    </div>
+                    <a href="#" class="star-link">View more &rarr;</a>
+                </div>
+
+                <div class="box">
+                    <div class="box-content">
+                        <div class="icon-wrap orange">
+                            <img src="./img/user-group-20-solid.svg" alt="">
+                        </div>
+                        <div class="stat-info">
+                            <p class="stat-label">Total clients</p>
+                            <p class="stat-value">6,389</p>
+                        </div>
+                    </div>
+
+                    <div class="box-content">
+                        <div class="icon-wrap green">
+                            <img src="./img/credit-card-20-solid.svg" alt="">
+                        </div>
+                        <div class="stat-info">
+                            <p class="stat-label">Account balance</p>
+                            <p class="stat-value">$46,760.89</p>
+                        </div>
+                    </div>
+
+                    <div class="box-content">
+                        <div class="icon-wrap blue">
+                            <img src="./img/shopping-cart-20-solid.svg" alt="">
+                        </div>
+                        <div class="stat-info">
+                            <p class="stat-label">New sales</p>
+                            <p class="stat-value">376</p>
+                        </div>
+                    </div>
+
+                    <div class="box-content">
+                        <div class="icon-wrap teal">
+                            <img src="./img/chat-bubble-left-ellipsis-16-solid.svg" alt="">
+                        </div>
+                        <div class="stat-info">
+                            <p class="stat-label">Pending contacts</p>
+                            <p class="stat-value">35</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>CLIENT</th>
+                                <th>AMOUNT</th>
+                                <th>STATUS</th>
+                                <th>DATE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="profile">
+                                    <img src="./img/profile.svg" alt="">
+                                    <div>
+                                        <p class="client-name">Hans Burger</p>
+                                        <p class="client-role">10x Developer</p>
+                                    </div>
+                                </td>
+                                <td class="amount">$863.45</td>
+                                <td><span class="status approved">Approved</span></td>
+                                <td class="date">06/10/2020</td>
+                            </tr>
+                            <tr>
+                                <td class="profile">
+                                    <img src="./img/profile.svg" alt="">
+                                    <div>
+                                        <p class="client-name">Jolina Angelie</p>
+                                        <p class="client-role">Unemployed</p>
+                                    </div>
+                                </td>
+                                <td class="amount">$369.95</td>
+                                <td><span class="status pending">Pending</span></td>
+                                <td class="date">06/10/2020</td>
+                            </tr>
+                            <tr>
+                                <td class="profile">
+                                    <img src="./img/profile.svg" alt="">
+                                    <div>
+                                        <p class="client-name">Sarah Curry</p>
+                                        <p class="client-role">Designer</p>
+                                    </div>
+                                </td>
+                                <td class="amount">$86.00</td>
+                                <td><span class="status denied">Denied</span></td>
+                                <td class="date">06/10/2020</td>
+                            </tr>
+                            <tr>
+                                <td class="profile">
+                                    <img src="./img/profile.svg" alt="">
+                                    <div>
+                                        <p class="client-name">Rulia Joberts</p>
+                                        <p class="client-role">Actress</p>
+                                    </div>
+                                </td>
+                                <td class="amount">$1,276.45</td>
+                                <td><span class="status approved">Approved</span></td>
+                                <td class="date">06/10/2020</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
